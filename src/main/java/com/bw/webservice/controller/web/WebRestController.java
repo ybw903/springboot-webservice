@@ -1,4 +1,4 @@
-package com.bw.webservice.web;
+package com.bw.webservice.controller.web;
 
 import com.bw.webservice.dto.PostsSaveRequestDto;
 import com.bw.webservice.repository.PostsRepositroy;

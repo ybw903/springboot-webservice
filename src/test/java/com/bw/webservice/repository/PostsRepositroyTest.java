@@ -54,4 +54,5 @@ public class PostsRepositroyTest {
         assertThat(posts.getCreatedDate().isAfter(now));
         assertThat(posts.getModifiedDate().isAfter(now));
     }
+
 }
