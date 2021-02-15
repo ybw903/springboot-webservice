@@ -2,3 +2,16 @@ spring:
   h2:
     console:
       enabled: true
+
+# Test
+---
+spring:
+  profiles:
+    active: local #기본 환경 선택
+
+# local 환경
+---
+spring:
+  profile: local
+  jpa:
+    show-sql:true
